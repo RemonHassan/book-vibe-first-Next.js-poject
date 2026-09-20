@@ -11,6 +11,7 @@ const getBooks = async () => {
     return data;
   } catch (error) {
     console.error("Error fetching data", error);
+    return [];
   }
 };
 const Books = async () => {
